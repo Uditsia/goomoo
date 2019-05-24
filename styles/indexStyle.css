@@ -1,0 +1,83 @@
+@media screen and (min-width: 400px) {
+  body,
+  main,
+  html {
+    margin: 0;
+    padding: 0;
+    font-family: "helvetica";
+    max-width: 100%;
+    scroll-behavior: smooth;
+  }
+
+  .logo {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    border: none;
+    float: none;
+  }
+  .logoText {
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-left: 5px;
+    font-weight: bolder;
+    text-shadow: 3px 5px 7px rgba(0, 0, 0, 0.4);
+    color: white;
+  }
+  nav {
+    display: flex;
+    padding: 8px;
+    width: 100%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4), 0px 0px 6px rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.4);
+    position: fixed;
+  }
+
+  .pic1 {
+    background-image: url("../resources/imgs/slider1.jpg");
+    width: 100%;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-size: 100%;
+  }
+  .headText {
+    position: absolute;
+    color: white;
+    font-size: 60px;
+    margin: auto;
+    width: 100%;
+    display: inline-block;
+    top: 250px;
+    font-weight: bold;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+  .tabs {
+    background-color: rgb(59, 63, 62);
+  }
+  .tabImg {
+    width: 200px;
+    height: 200px;
+
+    display: inline;
+    vertical-align: -webkit-baseline-middle;
+    float: left;
+  }
+  .tabText {
+    float: right;
+    width: 50%;
+    font-size: 20px;
+  }
+  .tabsContainer {
+    background-color: rgb(44, 43, 43);
+    height: 300px;
+    color: white;
+  }
+  .tabs span {
+    font-weight: bold;
+    text-decoration: underline;
+    margin-bottom: 15px;
+    display: inline-block;
+  }
+}
