@@ -46,12 +46,14 @@
     color: white;
     font-size: 60px;
     margin: auto;
-    width: 100%;
+    max-width: 100%;
     display: inline-block;
     top: 250px;
     font-weight: bold;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
     background-color: rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    transition: width 3s;
   }
   .tabs {
     background-color: rgb(59, 63, 62);
@@ -80,4 +82,19 @@
     margin-bottom: 15px;
     display: inline-block;
   }
+  .widthAn {
+    color: red;
+    padding: 0px;
+  }
+  /* .hd1 {
+    animation: anhd 1.3s linear;
+  } */
+  #hd2 {
+    animation: anhd 1.4 linear;
+    color: rgb(243, 31, 31);
+  }
+  .hd3 {
+    animation: anhd 1.5 linear;
+  }
+
 }
