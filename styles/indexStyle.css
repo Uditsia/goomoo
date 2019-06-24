@@ -34,7 +34,7 @@
   }
 
   .pic1 {
-    background-image: url("../resources/imgs/slider1.webp");
+    background-image: url("../resources/imgs/slider1Compresed600.jpg");
     width: 100%;
     min-height: 100vh;
     margin: 0;
@@ -67,8 +67,9 @@
     float: left;
   }
   .tabText {
+    margin-top: 30px;
     float: right;
-    width: 50%;
+    width: 40%;
     font-size: 20px;
   }
   .tabsContainer {
@@ -86,15 +87,10 @@
     color: red;
     padding: 0px;
   }
-  /* .hd1 {
-    animation: anhd 1.3s linear;
-  } */
-  #hd2 {
-    animation: anhd 1.4 linear;
-    color: rgb(243, 31, 31);
+  .hd {
   }
-  .hd3 {
-    animation: anhd 1.5 linear;
+  .hd2 {
+    color: red;
   }
 }
 
