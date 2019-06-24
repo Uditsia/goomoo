@@ -96,5 +96,16 @@
   .hd3 {
     animation: anhd 1.5 linear;
   }
+}
 
+@media screen and (min-width: 1000px) {
+  .pic1 {
+    background-image: url("../resources/imgs/slider2Edited.jpg");
+    width: 100%;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
 }
